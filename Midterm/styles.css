@@ -1,0 +1,49 @@
+/*Devin Wahaus, 4/1/2025*/
+body {
+	font-family: Arial, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+header {
+	display: flex;
+	padding-left: 10px; 
+}
+
+#profile img {
+	display: block;
+	margin-inline: auto;
+	position: relative;
+	bottom: 57px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	padding-inline: 0px;
+	margin-inline: 20%;
+	justify-content: space-evenly;
+	margin: 0px;
+	margin-top: 8%;
+	margin-inline: 30%;
+}
+
+li {
+	display: block;
+	text-align: center;
+	width: 6em;
+	padding-inline: 5px;
+}
+
+nav {
+	 
+}
+
+a {
+	color: white;
+	text-decoration: none
+}
+
+a:hover {
+	color: grey;
+}
