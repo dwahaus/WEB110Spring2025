@@ -17,7 +17,7 @@ header {
 	bottom: 57px;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 	display: flex;
 	padding-inline: 0px;
@@ -28,7 +28,7 @@ ul {
 	margin-inline: 30%;
 }
 
-li {
+nav li {
 	display: block;
 	text-align: center;
 	width: 6em;
@@ -46,4 +46,44 @@ a {
 
 a:hover {
 	color: grey;
+}
+
+main {
+	display: block;
+	text-align: center;
+	margin-inline: auto;
+}
+
+main img{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin-inline: auto;
+}
+
+#bio {
+	display: grid;
+	justify-content: center;
+	grid-template-rows: repeat(2,auto);
+	grid-template-columns: repeat(2,16%);
+	grid-gap: 2em; gap: 2em;
+}
+
+#bio h4 {
+	margin: 0px;
+}
+
+#bio ul {
+	padding-left: 0px;
+
+}
+
+#bio ol {
+	padding-left: 0px;
+}
+
+#bio li {
+	white-space: nowrap;
+	list-style-position: inside;
+	text-align: left;
 }
