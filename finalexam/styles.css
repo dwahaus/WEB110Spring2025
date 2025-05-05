@@ -1,0 +1,66 @@
+/*Devin Wahaus, 5/6/2025*/
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(images/font.ttf);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+	font-family: pixel ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+	background-image: url(images/background.png);
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Devin Wahaus, 5/6/2025-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<ul class="top-nav">
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final2.html">Details</a></li>
+					<li><a href="final3.html">Form</a></li>
+					<li><a href="final4.html">Credits</a></li>
+				</ul>
+			</nav>
+
+			<header>
+				<h1>Submit Your Input</h1>
+			</header>
+	
+			<main>
+				<section>
+					<form action="#" method="post">
+						<!-- Text Input -->
+						<label for="name">Your Name:</label><br>
+						<input type="text" id="name" name="name" required><br><br>
+
+						<!-- Date Picker -->
+						<label for="birthdate">Your Birthdate:</label><br>
+						<input type="date" id="birthdate" name="birthdate"><br><br>
+
+						<!-- Radio Buttons -->
+						<p>Favorite Evil Ex:</p>
+						<label><input type="radio" name="ex" value="matthew"> Matthew Patel</label><br>
+						<label><input type="radio" name="ex" value="lucas"> Lucas Lee</label><br>
+						<label><input type="radio" name="ex" value="todd"> Todd Ingram</label><br>
+						<label><input type="radio" name="ex" value="roxie"> Roxie Richter</label><br>
+						<label><input type="radio" name="ex" value="twins"> Kyle & Ken Katayanagi</label><br>
+						<label><input type="radio" name="ex" value="gideon"> Gideon Graves</label><br><br>
+
+						<!-- Checkbox -->
+						<label><input type="checkbox" name="newsletter" value="yes"> Sign me up for the Scott Pilgrim newsletter</label><br><br>
+
+						<!-- Select Dropdown -->
+						<label for="character">Choose your favorite character:</label><br>
+						<select id="character" name="character">
+							<option value="scott">Scott Pilgrim</option>
+							<option value="ramona">Ramona Flowers</option>
+							<option value="knives">Knives Chau</option>
+							<option value="kim">Kim Pine</option>
+							<option value="envy">Envy Adams</option>
+							<option value="stephen">Stephan Stills</option>
+							<option value="julie">Julie Powers</option>
+							<option value="wallace">Wallace Wells</option>
+							<option value="neil">Neil Nordegraf</option>
+						</select><br><br>
+
+						<!-- Textarea -->
+						<label for="message">Why do you love Scott Pilgrim?</label><br>
+						<textarea id="message" name="message" rows="4" cols="50" placeholder="Tell us your thoughts..."></textarea><br><br>
+
+						<!-- Submit and Reset Buttons -->
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</form>
+					<img src="images/form.webp" alt="Sex Bob-Omb logo - Fandom Wiki">
+				</section>
+			</main>
+
+			<footer>
+				<nav>
+					<ul class="bottom-nav">
+						<li><a href="final1.html">Home</a></li>
+						<li><a href="final2.html">Details</a></li>
+						<li><a href="final3.html">Form</a></li>
+						<li><a href="final4.html">Credits</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+	</body>
+</html>
