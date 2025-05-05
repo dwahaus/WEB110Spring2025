@@ -1,0 +1,77 @@
+/*Devin Wahaus, 5/6/2025*/
+
+/*liquid layout*/
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/*custom font for nav*/
+@font-face {
+  font-family: pixel;
+  src: url(images/font.ttf);
+}
+
+/*nav css and nav border lines*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+	font-family: pixel ;
+}
+
+/*nav text css*/
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
+	color: black;
+}
+
+/*nav hover color*/
+a:hover {
+	color: grey;
+}
+
+/*img size css*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*body css and background img*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+	background: url(images/background.png) no-repeat center fixed;
+}
+
+/*responsive sizing*/
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*responsive sizing*/
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/*responsive sizing*/
+@media (min-width: 1025px) {
+    body {
+        font-size: 1.1em;
+    }
+}
